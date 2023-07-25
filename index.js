@@ -3,11 +3,11 @@ function receivesAFunction(callback){
 }
 console.log(callback);
 recievesAFunction(callback);
-function returnsANamedFunction(name) {
+function returnsANamedFunction() {
     return function namedFunction() {
     }
 }
-function returnsAnAnonymousFunction(anon) {
+function returnsAnAnonymousFunction() {
     return function(){
         return function name(){}
     }
